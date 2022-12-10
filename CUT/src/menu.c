@@ -5,7 +5,20 @@
 
 void avgTemperature()
 {
-	printf("avgTemperature\n");
+    for(int i=1;i<13;i++){
+        char mon[3];
+        sprintf(mon,"%2d",k)
+        while(iter!= NULL){
+            if(strncmp(date[3],mon,2)==0){
+                temp+= temperature->temp;
+                iter=iter->next;
+                count++;
+            }
+        }
+        avgTemperature = temp/count;
+        printf("Average temprature for month %d is %d\n",mon,avgTemperature);
+    }
+    
 }
 
 void avgHumidity()
