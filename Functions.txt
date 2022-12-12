@@ -1,6 +1,0 @@
-1. menu
-2. main
-3. dataExtractor
-4. struct
-5. average
-6. displayData
