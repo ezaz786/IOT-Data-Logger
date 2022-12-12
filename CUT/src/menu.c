@@ -40,7 +40,7 @@ void menu()
 		
 		if ( returnValue == 0 || returnValue ==  EOF)
 		{
-			fflush(stdin);
+			fflush(stdin);//clear the output buffer
 			printf("* Invalid input. Please enter valid input\n");
 			break;
 		}
